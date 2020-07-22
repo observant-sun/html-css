@@ -36,9 +36,8 @@ body {
 }
 
 .item_specs {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
+    list-style: "⟶";
+    margin-left: 30px;
 }
 
 .item_specs_li {
@@ -47,13 +46,6 @@ body {
     font-size: 16px;
     line-height: 1.75em;
     padding-left: 1em;
-    text-indent: -1em;
-}
-
-.item_specs_li:before {
-    color: #350000;
-    content: "⟶";
-    padding-right: 5px;
 }
 
 .item_page_item_image {
