@@ -56,6 +56,11 @@ body {
     padding-right: 5px;
 }
 
+.item_page_item_image {
+    height: 250px;
+    border: solid #350000;
+}
+
 .contacts_page {
 
 }
