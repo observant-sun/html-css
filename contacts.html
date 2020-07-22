@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Контакты&nbsp;&mdash; Черным по&nbsp;Белому</title>
 </head>
-<body>
+<body class="contacts_page">
 <header>
     <ul>
         <li class="header_item"><a class="header_link" href="index.html">Главная</a></li>
@@ -14,28 +14,28 @@
     </ul>
 </header>
 <hr/>
-<h1>Напишите нам</h1>
-<form>
+<h1 class="contacts_heading">Напишите нам</h1>
+<form class="contacts_form">
     <fieldset>
-        <legend>Форма обратной связи</legend>
+        <legend class="contacts_form_legend">Форма обратной связи</legend>
 
-        <label for="name">Имя</label>
-        <input id="name" type="text" placeholder="например, Иван Иванов"/>
+        <label for="name" class="contacts_form_label">Имя</label>
+        <input id="name" type="text" placeholder="например, Иван Иванов" class="contacts_form_input_text"/>
         <br/>
-        <label for="email">Электронная почта</label>
-        <input id="email" type="email" placeholder="inbox@example.com"/>
+        <label for="email" class="contacts_form_label">Электронная почта</label>
+        <input id="email" type="email" placeholder="inbox@example.com" class="contacts_form_input_text"/>
         <br/>
-        <label for="subject">Тема</label>
-        <input id="subject" type="text" placeholder="например, Вопрос о товаре"/>
+        <label for="subject" class="contacts_form_label">Тема</label>
+        <input id="subject" type="text" placeholder="например, Вопрос о товаре" class="contacts_form_input_text"/>
         <br/>
-        <label for="text">Текст сообщения</label>
-        <textarea id="text" placeholder="В чём состоит Ваш вопрос или Ваши пожелания?"></textarea>
+        <label for="text" class="contacts_form_label">Текст сообщения</label>
+        <textarea id="text" placeholder="В чём состоит Ваш вопрос или Ваши пожелания?" class="contacts_form_input_textarea"></textarea>
         <br/>
-        <input type="submit" value="Отправить!"/>
+        <input type="submit" value="Отправить!"  class="contacts_form_input_submit"/>
 
     </fieldset>
 </form>
-<h2>Адрес</h2>
+<h2 class="contacts_heading">Адрес</h2>
 <p>Контактный телефон: +7 (912) 123-14-10</p>
 <p>Россия, г. Москва, Проектируемый пр-д &#8470;&nbsp;4087, д.&nbsp;95, стр.&nbsp;6</p>
 <p>Электронная почта: inbox@bestprintershopinmoscow.ru</p>

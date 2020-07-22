@@ -55,3 +55,45 @@ body {
     content: "⟶";
     padding-right: 5px;
 }
+
+.contacts_page {
+
+}
+
+.contacts_heading {
+    color: black;
+    font-size: 26px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.contacts_form {
+    line-height: 2em;
+    display: table-cell;
+}
+
+.contacts_form_legend {
+    color: #600000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contacts_form_label {
+    padding-left: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.contacts_form_input_text {
+    height: 30px;
+    width: 250px;
+    color: #350000;
+    font-size: 18px;
+}
+
+.contacts_form_input_textarea {
+    height: 300px;
+    width: 300px;
+    color: #350000;
+    font-size: 18px;
+}
