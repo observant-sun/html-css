@@ -10,7 +10,11 @@ body {
 }
 
 .header_link {
-    color : sienna;
+    color : #a0522d;
+}
+
+.header_link:hover {
+    color : #ff800a;
 }
 
 .item_heading {
