@@ -1,0 +1,96 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.header_item {
+    font-family: "Courier 10 Pitch", monospace;
+    font-style: normal;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.header_link {
+    color : sienna;
+}
+
+.item_heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.item_short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.item_long_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.item_specs {
+    list-style: "⟶";
+    margin-left: 30px;
+}
+
+.item_specs_li {
+    color: maroon;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.75em;
+    padding-left: 1em;
+}
+
+.item_page_item_image {
+    height: 250px;
+    border: solid #350000;
+}
+
+.contacts_page {
+
+}
+
+.contacts_heading {
+    color: black;
+    font-size: 26px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.contacts_form {
+    line-height: 2em;
+    display: table-cell;
+}
+
+.contacts_form_legend {
+    color: #600000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contacts_form_label {
+    padding-left: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.contacts_form_input_text {
+    height: 30px;
+    width: 250px;
+    color: #350000;
+    font-size: 18px;
+}
+
+.contacts_form_input_textarea {
+    height: 300px;
+    width: 300px;
+    color: #350000;
+    font-size: 18px;
+}
