@@ -2,6 +2,10 @@ body {
     background-color: #f8f8f8;
 }
 
+.header_logo {
+    height: 100px;
+}
+
 .header_item {
     font-family: "Courier 10 Pitch", monospace;
     font-style: normal;
