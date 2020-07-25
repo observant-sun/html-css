@@ -101,6 +101,28 @@ body {
     font-size: 18px;
 }
 
+.contacts_form_input_text {
+    height: 30px;
+    width: 250px;
+    color: #350000;
+    font-size: 18px;
+}
+
+.contacts_form_input_text__name,
+.contacts_form_input_text__subject {
+    text-transform: capitalize;
+}
+
+.contacts_form_input_text__name::placeholder,
+.contacts_form_input_text__subject::placeholder {
+    text-transform: none;
+}
+
+.contacts_form_input_text__email:focus {
+    color: black;
+    background-color: rgba(249, 113, 113, 0.1);
+}
+
 .contacts_form_input_textarea {
     height: 300px;
     width: 300px;
