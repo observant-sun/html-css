@@ -21,6 +21,11 @@ body {
     color : #ff800a;
 }
 
+.footer {
+    color: #707070;
+    font-size: 14px;
+}
+
 .item_heading {
     color: black;
     font-size: 18px;
