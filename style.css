@@ -46,9 +46,14 @@ body {
 }
 
 .footer {
+    height: 60px;
+    background-color: #fffec3;
     border-top: 1px solid black;
     color: #707070;
     font-size: 14px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
 }
 
 .item_heading {
