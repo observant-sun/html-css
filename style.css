@@ -197,3 +197,12 @@ body {
     color: #350000;
     font-size: 18px;
 }
+
+.catalog__entry_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog__item_entry__image_preview {
+    height: 250px;
+}
