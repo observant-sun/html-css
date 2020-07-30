@@ -14,13 +14,23 @@ body {
 
 .header {
     border-bottom: 1px solid black;
+    height: 200px;
 }
 
 .header_logo {
     height: 100px;
+    margin-left: 50px;
+    float: left;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
 }
 
 .header_item {
+    margin-left: 10px;
     font-family: "Courier 10 Pitch", monospace;
     font-style: normal;
     font-size: 20px;
