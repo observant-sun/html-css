@@ -1,16 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #f8f8f8;
 }
 
+.header {
+    border-bottom: 1px solid black;
+    height: 200px;
+}
+
 .header_logo {
     height: 100px;
+    margin-left: 50px;
+    float: left;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header_item {
+    margin-left: 10px;
     font-family: "Courier 10 Pitch", monospace;
     font-style: normal;
     font-size: 20px;
-    list-style-type: none;
 }
 
 .header_link {
@@ -22,8 +44,14 @@ body {
 }
 
 .footer {
+    height: 60px;
+    background-color: #fffec3;
+    border-top: 1px solid black;
     color: #707070;
     font-size: 14px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
 }
 
 .item_heading {
@@ -40,11 +68,39 @@ body {
     background-color: #eaeaea;
 }
 
+.item_short_description_and_image {
+    display: flex;
+}
+
+.item_short_description_and_image__subdivide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
 .item_short_description {
+    padding-top: 1em;
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+}
+
+.item_button_buy {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    width: 120px;
+    height: 25px;
+    background-color: #fffce7;
+}
+
+.item_button_buy:hover {
+    background-color: #fff181;
+}
+
+.item_button_buy:active {
+    background-color: #ffed24;
 }
 
 .item_long_description {
@@ -140,4 +196,13 @@ body {
     width: 300px;
     color: #350000;
     font-size: 18px;
+}
+
+.catalog__entry_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog__item_entry__image_preview {
+    height: 250px;
 }
