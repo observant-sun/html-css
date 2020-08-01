@@ -193,13 +193,13 @@ a {
 }
 
 .bottom__are_you_interested {
-    height: 391px;
     display: flex;
     justify-content: space-between;
 }
 
 .bottom__are_you_interested__text {
     margin-top: 91px;
+    margin-bottom: 96px;
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -239,3 +239,4 @@ a {
     height: 266px;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
+
