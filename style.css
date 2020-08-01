@@ -130,13 +130,21 @@ a {
     margin-top: 51px;
 }
 
-.item__link {
+.item__learn_more {
+    margin-top: 29px;
+    display: inline-flex;
+}
+
+.item__learn_more__text {
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
     color: #5A98D0;
-    margin-top: 29px;
     display: inline-block;
+}
+
+.item__learn_more__arrow {
+    margin-left: 20px;
 }
 
 .project__item {
