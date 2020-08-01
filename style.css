@@ -186,3 +186,56 @@ a {
     left: 32px;
     top: 32px;
 }
+
+.bottom {
+    margin-top: 80px;
+    background: #316099;
+}
+
+.bottom__are_you_interested {
+    height: 391px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__are_you_interested__text {
+    margin-top: 91px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.bottom__are_you_interested__text__heading {
+    width: 70%;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.bottom__are_you_interested__text__body {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: white;
+    opacity: 0.6;
+}
+
+.bottom__are_you_interested__button_lets_talk {
+    margin-top: 165px;
+    width: 236px;
+    height: 56px;
+    background-color: #5A98D0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.footer {
+    height: 266px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
