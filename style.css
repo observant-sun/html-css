@@ -18,7 +18,7 @@ a {
 }
 
 .top {
-    height: 768px;
+    min-height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
@@ -37,7 +37,7 @@ a {
 .top__container {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 768px;
 }
 
 .top__content {
@@ -83,7 +83,7 @@ a {
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background: #5A98D0;
+    background: #5a98d0;
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
     padding: 15px 50px;
@@ -290,6 +290,10 @@ a {
         padding-right: 32px;
     }
 
+    .top__container {
+        min-height: 768px;
+    }
+
     .top__content {
         background-position: right 292px;
     }
@@ -342,5 +346,95 @@ a {
 
     .footer__copyright {
         padding-top: 39px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top {
+        min-height: 376px;
+    }
+
+    .top__container {
+        min-height: 100%;
+    }
+
+    .top__content {
+        background-image: none;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 15px;
+    }
+
+    .top__heading {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        width: unset;
+        margin-top: 28px;
+    }
+
+    .text_width {
+        width: unset;
+        text-align: center;
+    }
+
+    .button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 12px;
+        margin: 32px auto 0;
+        display: inline-block;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .what-we-do {
+        padding-top: 32px;
+    }
+
+    .what-we-do__content {
+        padding-top: 32px;
+    }
+
+    .text_project {
+        width: unset;
+    }
+
+    .project__box {
+        flex-wrap: wrap;
+    }
+
+    .project__item {
+        margin-bottom: 16px;
+    }
+
+    .project__item_mini {
+        width: unset;
+    }
+
+    .project__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        top: 16px;
+        right: 16px;
+    }
+
+    .project__text_mini {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        top: 16px;
+        left: 16px;
     }
 }
