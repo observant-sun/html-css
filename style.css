@@ -91,6 +91,14 @@ a {
     margin-top: 71px;
 }
 
+.button:hover {
+    background: #406d96;
+}
+
+.button:active {
+    background: #375e82;
+}
+
 .heading {
     font-weight: 300;
     font-size: 36px;
@@ -136,6 +144,10 @@ a {
     display: inline-flex;
 }
 
+.item__learn_more:hover {
+    text-decoration: underline;
+}
+
 .item__learn_more__text {
     font-size: 14px;
     line-height: 30px;
@@ -157,6 +169,10 @@ a {
 .project__box {
     display: flex;
     justify-content: space-between;
+}
+
+.project__item:hover, .project__text_mini:hover {
+    opacity: 0.8;
 }
 
 .project__item_mini {
