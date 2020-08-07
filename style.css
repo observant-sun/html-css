@@ -233,7 +233,9 @@ a {
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -299,5 +301,46 @@ a {
 
     .item {
         margin-bottom: 32px;
+    }
+
+    .bottom__are_you_interested__text {
+        margin: 47px 51px 64px 92px;
+    }
+
+    .bottom__are_you_interested__text__heading {
+        width: 100%;
+    }
+
+    .bottom__are_you_interested__button_lets_talk {
+        margin-right: 101px;
+        width: 205px;
+        height: 31px;
+    }
+
+    .footer {
+        padding-left: 101px;
+    }
+
+    .footer__contacts {
+        flex-direction: column;
+    }
+
+    .footer__contacts__item {
+        margin-bottom: 25px;
+        margin-right: 100px;
+        width: 100%;
+        margin-left: unset;
+    }
+
+    .footer__contacts__item__name {
+        width: 20px;
+    }
+
+    .footer__contacts__item__text {
+        margin-left: 36px;
+    }
+
+    .footer__copyright {
+        padding-top: 39px;
     }
 }
