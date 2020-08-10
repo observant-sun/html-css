@@ -460,4 +460,68 @@ a {
         top: 16px;
         left: 16px;
     }
+
+    .bottom {
+        margin-top: 48px;
+    }
+
+    .bottom__are_you_interested {
+        flex-direction: column;
+        width: unset;
+        align-items: center;
+    }
+
+    .bottom__are_you_interested__text {
+        flex-direction: column;
+        width: unset;
+        margin: 18px 0 0 0;
+        align-items: center;
+    }
+
+    .bottom__are_you_interested__text__heading {
+        font-size: 24px;
+        line-height: 28px;
+        width: 70%;
+        text-align: center;
+        letter-spacing: unset;
+    }
+
+    .bottom__are_you_interested__text__body {
+        font-size: 16px;
+        line-height: 26px;
+        width: unset;
+        text-align: center;
+    }
+
+    .bottom__are_you_interested__button_lets_talk {
+        margin: 40px 0 40px 0;
+        width: 35%;
+        height: 32px;
+    }
+
+    .footer {
+        padding-left: unset;
+    }
+
+    .footer__contacts {
+        margin-top: 32px;
+    }
+
+    .footer__contacts__item {
+        margin-bottom: 17px;
+    }
+
+    .footer__contacts__item__text {
+        margin-left: 23px;
+    }
+
+    .footer__contacts__address__text {
+        line-height: 19px;
+    }
+
+    .footer__copyright {
+        padding-top: 15px;
+        padding-bottom: 32px;
+        text-align: center;
+    }
 }
