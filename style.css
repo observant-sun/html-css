@@ -261,6 +261,14 @@ a {
     align-items: center;
 }
 
+.bottom__are_you_interested__button_lets_talk:hover {
+    background-color: #5fa1dd;
+}
+
+.bottom__are_you_interested__button_lets_talk:active {
+    background-color: #65abea;
+}
+
 .footer {
     border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
